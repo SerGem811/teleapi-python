@@ -1,0 +1,8 @@
+celery
+djangorestframework
+django
+telethon==0.19.1.6
+redis
+requests
+git+https://github.com/kunaldeo/django-livesettings3
+git+https://github.com/kunaldeo/django-keyedcache3
