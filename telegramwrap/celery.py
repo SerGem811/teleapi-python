@@ -6,7 +6,7 @@ from celery import Celery
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'telegramwrap.settings')
 app = Celery('telegramwrap')
-app.conf.broker_url = 'redis://localhost:6380/'
+app.conf.broker_url = 'redis://localhost:6379/'
 
 # Using a string here means the worker doesn't have to serialize
 # the configuration object to child processes.
