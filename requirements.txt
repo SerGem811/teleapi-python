@@ -6,4 +6,10 @@ redis
 requests
 git+https://github.com/kunaldeo/django-livesettings3
 git+https://github.com/kunaldeo/django-keyedcache3
-django-cors-headers
+
+
+Install "virtualenv" - python
+
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
